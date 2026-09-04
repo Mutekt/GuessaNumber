@@ -23,6 +23,9 @@ int main(){
             std::cin.clear();
             std::cin.ignore(1000, '\n');
         }
+        else if(number>100 || number<1){
+            std::cout<<"Your number must be between the range of 1 and 100!\n";
+        }
 
         else if (number>randomNum){ 
             std::cout<<"Too high!\n"; //informs that the input is too high
